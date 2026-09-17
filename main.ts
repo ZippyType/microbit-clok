@@ -9,7 +9,7 @@ function tijd_zien () {
     for (let index = 0; index < 2; index++) {
         music.play(music.stringPlayable("C5 G B A F A C5 B ", 199), music.PlaybackMode.UntilDone)
     }
-    music.play(music.stringPlayable("C5 C5 C5 C5 - - - - ", 199), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("C5 C5 C5 - - - - - ", 199), music.PlaybackMode.UntilDone)
 }
 input.onButtonPressed(Button.B, function () {
     tijd_zien()
